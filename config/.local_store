@@ -1,0 +1,44 @@
+{
+    "Invoice.page": {
+        "createdById": "0051t000000ENG2AAO",
+        "createdByName": "Valentine Potapov",
+        "createdDate": "2018-08-20T07:11:18.000Z",
+        "fileName": "unpackaged/pages/Invoice.page",
+        "fullName": "Invoice",
+        "id": "0661t000001R4kLAAS",
+        "lastModifiedById": "0051t000000ENG2AAO",
+        "lastModifiedByName": "Valentine Potapov",
+        "lastModifiedDate": "2018-08-20T07:19:24.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexPage",
+        "mmState": "clean"
+    },
+    "Test.cls": {
+        "createdById": "0051t000000ENG2AAO",
+        "createdByName": "Valentine Potapov",
+        "createdDate": "2018-08-20T12:27:50.000Z",
+        "fileName": "unpackaged/classes/Test.cls",
+        "fullName": "Test",
+        "id": "01p1t000005kjKGAAY",
+        "lastModifiedById": "0051t000000ENG2AAO",
+        "lastModifiedByName": "Valentine Potapov",
+        "lastModifiedDate": "2018-08-20T12:27:50.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "InvoiceHeaderPriceSetter.trigger": {
+        "createdById": "0051t000000ENG2AAO",
+        "createdByName": "Valentine Potapov",
+        "createdDate": "2018-08-17T11:58:14.000Z",
+        "fileName": "unpackaged/triggers/InvoiceHeaderPriceSetter.trigger",
+        "fullName": "InvoiceHeaderPriceSetter",
+        "id": "01q1t0000005E2dAAE",
+        "lastModifiedById": "0051t000000ENG2AAO",
+        "lastModifiedByName": "Valentine Potapov",
+        "lastModifiedDate": "2018-08-17T20:52:36.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    }
+}

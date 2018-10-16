@@ -1,0 +1,24 @@
+{
+    "projectName": "First SF Project",
+    "username": "valentine.potapov@ge.com",
+    "id": "b88bba20-9b1a-11e8-8732-e3494c11a594",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://eu16.salesforce.com",
+    "workspace": "C:\\Users\\212717493\\Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "CustomObject",
+        "CustomTab",
+        "HomePageComponent",
+        "HomePageLayout",
+        "Layout",
+        "Settings",
+        "StaticResource",
+        "Workflow"
+    ]
+}
