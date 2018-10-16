@@ -15,9 +15,7 @@
    			<apex:pageBlockTable value="{!Invoice_Header__c.Invoice_Lines__r}" var="line">
                 <apex:column value="{!line.Selling_Item__r.Product__r.Name}"/> 
                 <apex:column value="{!line.Quantity__c}"/>
-                <apex:column value="{!line.Unit_Price__c}"/>
-                <apex:column value="{!line.Discount__c}"/> 
-                <apex:column value="{!line.Total_Price__c}"/>
+                <apex:column value="{!line.Unit_Price__c}"/>      
    			</apex:pageBlockTable>   
     	</apex:pageBlock>
     </apex:form>
