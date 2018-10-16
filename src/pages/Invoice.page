@@ -6,10 +6,6 @@
           	</apex:pageBlockSection>
         </apex:pageBlock>   
         <apex:pageBlock title="Invoice">
-            <apex:pageBlockSection >
-                <apex:outputField value="{! Invoice_Header__c.Actual_Payment_Date__c}"/>
-                <apex:outputField value="{! Invoice_Header__c.Total_Price__c}"/>
-            </apex:pageBlockSection>
         </apex:pageBlock> 
         <apex:pageBlock title="Invoice Lines">
    			<apex:pageBlockTable value="{!Invoice_Header__c.Invoice_Lines__r}" var="line">
