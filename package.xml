@@ -239,6 +239,10 @@
         <members>User</members>
         <members>UserLicense</members>
         <members>UserProvisioningRequest</members>
+        <members>WorkOrder</members>
+        <members>WorkOrderLineItem</members>
+        <members>WorkType</members>
+        <name>Workflow</name>
     </types>
     <types>
         <members>*</members>
