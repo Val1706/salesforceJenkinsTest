@@ -9,7 +9,6 @@ global class ActPaymentDateSetter implements Schedulable {
 			invoice.Actual_Payment_Date__c = date.today();
 		}
 		update invoicesToUpdate;
-
-		System.debug('test');
+//test
 	}
 }
