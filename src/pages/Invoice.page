@@ -1,18 +1,3 @@
 <apex:page standardController="Invoice_Header__c"  applyBodyTag="false" renderAs="pdf">
-	<apex:form >
-    	<apex:pageBlock title="Account">
-            <apex:pageBlockSection >
-                <apex:outputField value="{! Invoice_Header__c.Customer__r.Name }"/>
-          	</apex:pageBlockSection>
-        </apex:pageBlock>   
-        <apex:pageBlock title="Invoice">
-        </apex:pageBlock> 
-        <apex:pageBlock title="Invoice Lines">
-   			<apex:pageBlockTable value="{!Invoice_Header__c.Invoice_Lines__r}" var="line">
-                <apex:column value="{!line.Selling_Item__r.Product__r.Name}"/> 
-                <apex:column value="{!line.Quantity__c}"/>
-                <apex:column value="{!line.Unit_Price__c}"/>      
-   			</apex:pageBlockTable>   
-    	</apex:pageBlock>
-    </apex:form>
+	
 </apex:page>
